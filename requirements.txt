@@ -1,0 +1,10 @@
+# Dependencias para desplegar VisorScreenings.py en Streamlit Community Cloud.
+# Coloca este archivo en la RAÍZ del repositorio, junto a VisorScreenings.py,
+# hydrophilicity.json, lipophilicity.json, stock_solutions.json.
+
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+plotly>=5.24
+scipy>=1.11
+openpyxl>=3.1   # requerido por pandas.read_excel para archivos .xlsx
